@@ -2,6 +2,8 @@
 // =====================================
 // =====================================
 
+document.getElementById("psshead").style.color = "#ffc107";
+
 function onSubmit() {
 
     var a = document.getElementById('password').value;
@@ -11,6 +13,7 @@ function onSubmit() {
     if (encodedValue == "NzQyNjcy" ) {
         window.ProtectedDiv.style.display="block"; 
         document.getElementById("psshead").innerHTML = "Section has been opened";
+        document.getElementById("psshead").style.color = "#0bceaf";
 
         // When User Submitted Rignt Password
         swal({
