@@ -14,6 +14,7 @@ function onSubmit() {
         window.ProtectedDiv.style.display="block"; 
         document.getElementById("psshead").innerHTML = "Section has been opened";
         document.getElementById("psshead").style.color = "#0bceaf";
+        document.getElementById("lockerSection").style.display = "none";
 
         // When User Submitted Rignt Password
         swal({
