@@ -10,6 +10,7 @@ function onSubmit() {
 
     if (encodedValue == "NzQyNjcy" ) {
         window.ProtectedDiv.style.display="block"; 
+        document.getElementById("psshead").innerHTML = "Section has been opened";
 
         // When User Submitted Rignt Password
         swal({
